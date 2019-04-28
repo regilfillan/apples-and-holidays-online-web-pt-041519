@@ -52,6 +52,7 @@ def all_supplies_in_holidays(holiday_hash)
    end
  end
 end
+end
   # Winter:
   #   Christmas: Lights, Wreath
   #   New Years: Party Hats
