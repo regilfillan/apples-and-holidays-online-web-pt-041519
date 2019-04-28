@@ -52,18 +52,11 @@ def all_supplies_in_holidays(holiday_hash)
  end
 end
 
-  # Winter:
-  #   Christmas: Lights, Wreath
-  #   New Years: Party Hats
-  # Summer:
-  #   Fourth Of July: Fireworks, BBQ
-  # etc.
-
 
 def all_holidays_with_bbq(holiday_hash)
-  # return an array of holiday names (as symbols) where supply lists
+  holiday_hash.values.flatten.include?("BBQ")
+    # return an array of holiday names (as symbols) where supply lists
   # include the string "BBQ"
-
 end
 
 
