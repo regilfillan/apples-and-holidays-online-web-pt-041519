@@ -51,7 +51,6 @@ def all_supplies_in_holidays(holiday_hash)
        word.capitalize}.join(' ') }: #{supplies.join(", ")}"
    end
  end
-     
 end
   # Winter:
   #   Christmas: Lights, Wreath
