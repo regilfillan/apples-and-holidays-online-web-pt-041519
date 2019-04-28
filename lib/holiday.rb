@@ -45,7 +45,9 @@ end
 
 def all_supplies_in_holidays(holiday_hash)
  holiday_hash.each do |k, v|
-   if 
+   if k == :winter || k == :Summer
+  end
+end
   # Winter:
   #   Christmas: Lights, Wreath
   #   New Years: Party Hats
